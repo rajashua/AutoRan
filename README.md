@@ -45,6 +45,14 @@ def Decry():
     pass
 ```
 
+#### Password Generate
+##### Password Generate Source Code
+```
+Password = ""
+for i in range(0, 8):
+  Password = Password+"x"+random.randrange(10, 100)
+```
+
 #### Use cryptography.fernet
 # I hope this program not work
 #### cause i hate ransomware...
