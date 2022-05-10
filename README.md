@@ -1,4 +1,6 @@
 # AutoRan
+## Help
+Dev Discord : https://discord.gg/nhNWu8Sjre
 ### AutoRan history 1.0
 #### Encrypt
 ###### Encrypt Source Code
