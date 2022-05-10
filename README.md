@@ -3,6 +3,7 @@
 ##### Encrypt Source Code
 
 ```
+Encrypt = {}
 Files = glob.glob("*.*")
 
 def Encry():
