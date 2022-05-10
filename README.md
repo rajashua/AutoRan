@@ -1,8 +1,5 @@
 # AutoRan
 ### AutoRan history 1.0
- - Encrypt
-
-##### Use cryptography modul
 ##### Encrypt Source Code
 
 ```
@@ -20,4 +17,9 @@ def Encry():
         fp.close()
   except:
     pass
+```
+
+#### Decrypt Source Code
+
+```
 ```
