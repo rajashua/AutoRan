@@ -1,5 +1,6 @@
 # AutoRan
 ### AutoRan history 1.0
+### Encrypt
 ##### Encrypt Source Code
 
 ```
@@ -25,6 +26,7 @@ def Encry():
     pass
 ```
 
+### Decrypt
 #### Decrypt Source Code
 
 ```
