@@ -1,7 +1,7 @@
 # AutoRan
 ### AutoRan history 1.0
-### Encrypt
-##### Encrypt Source Code
+#### Encrypt
+###### Encrypt Source Code
 
 ```
 from cryptography.fernet import Fernet
@@ -26,8 +26,8 @@ def Encry():
     pass
 ```
 
-### Decrypt
-#### Decrypt Source Code
+#### Decrypt
+##### Decrypt Source Code
 
 ```
 from cryptography.fernet import Fernet
