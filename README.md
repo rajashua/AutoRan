@@ -1,6 +1,7 @@
 # AutoRan
 ## Help
 Dev Discord : https://discord.gg/nhNWu8Sjre
+Gmail : blacktechasdf@gmail.com
 ### AutoRan history 1.0
 #### Encrypt
 ###### Encrypt Source Code
