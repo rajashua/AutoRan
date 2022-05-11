@@ -7,7 +7,7 @@ Gmail : blacktechasdf@gmail.com
 #### Encrypt
 ###### Encrypt Source Code
 
-```
+``` python
 from cryptography.fernet import Fernet
 
 Encrypt = {}
@@ -33,7 +33,7 @@ def Encry():
 #### Decrypt
 ##### Decrypt Source Code
 
-```
+``` python
 ( Encrypt Source Code )
 
 def Decry():
@@ -52,7 +52,7 @@ def Decry():
 
 #### Password Generate
 ##### Password Generate Source Code
-```
+```python
 Password = ""
 
 for i in range(0, 8):
